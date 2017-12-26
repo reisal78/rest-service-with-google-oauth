@@ -10,7 +10,7 @@ public class ProtectedController {
 
     @GetMapping("/profile")
     public String get(Principal principal) {
-        String resp = principal != null ? principal.getName() : "Anonymous";
+        String resp = principal != null ? principal.toString() : "Anonymous";
         return "Hello, " + resp;
     }
 
