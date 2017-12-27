@@ -14,4 +14,9 @@ public class ProtectedController {
         return "Hello, " + resp;
     }
 
+    @GetMapping("/admin")
+    public String adminPage() {
+        return "Hello, Admin";
+    }
+
 }
