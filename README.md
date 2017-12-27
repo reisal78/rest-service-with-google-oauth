@@ -1,6 +1,6 @@
 # Spring boot with google auth
 
-###Как попробовать?
+### Как попробовать?
 
 1. Сначала разберемся с гуглом
  
@@ -19,7 +19,7 @@
 4. Для того что бы обратиться [http://localhost:8080/profile](http://localhost:8080/profile) нужно оправить GET
 запрос с заголовком ```Authorization : bearer {ваш access_token}```
 ![alttag](http://i.piccy.info/i9/5f1400d5f60604827ad6f81162a46585/1514355618/12650/1208226/scr_3.png)
-###Как получить google access token?
+### Как получить google access token?
 
 *Получение токена зависит от клиента. Я буду использовать PostMan. Нам нужно получить authorization_code, и затем обменять его на access_token*
 1. В браузере (помоему с недавнего времени гугл блокирует "не браузуры" при таком запросе) введем такую ссылку: 
