@@ -35,3 +35,6 @@
    и *обязательно* добавить заголовок ```Content-Type  application/x-www-form-urlencoded```
    
 3. В ответе и будет access_token
+
+
+За основу взята [эта статья](http://blog.arnoldgalovics.com/2017/02/05/google-oauth-with-spring-security-as-separated-resource-server/)
